@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .ink { stroke: #111827; }
+    .bg { fill: #FFFFFF; }
+    .blue { stroke: #2F6BFF; }
+    .node { fill: #2F6BFF; }
+    @media (prefers-color-scheme: dark) {
+      .ink { stroke: #F3F4F6; }
+      .bg { fill: #111827; }
+      .blue { stroke: #6E97FF; }
+      .node { fill: #6E97FF; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="12"/>
+  <g transform="translate(0 12)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path class="ink" d="M14 8 L4 20 L14 32" stroke-width="4.2"/>
+    <path class="ink" d="M50 8 L60 20 L50 32" stroke-width="4.2"/>
+    <path class="blue" d="M17 30 L24 19 L29 25 L35 12 L41 23 L45 18 L47 22" stroke-width="3"/>
+  </g>
+  <g transform="translate(0 12)">
+    <circle class="node" cx="24" cy="19" r="3"/>
+    <circle class="node" cx="35" cy="12" r="3"/>
+    <circle class="node" cx="45" cy="18" r="3"/>
+  </g>
+</svg>
